@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Web Design Mastery | Responsive Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Xivumbeko</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" id="home">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Xivumbeko<br />an</span> Information Technology Student
+        </h1>
+        <p class="description">
+          Welcome to my web developer portfolio! I'm Mitchell, a skilled and
+          creative web developer with a passion for creating beautiful,
+          responsive, and user-friendly websites. I've worked on a variety of
+          web projects, ranging from personal blogs to e-commerce platforms.
+        </p>
+        <div class="action__btns">
+          <button class="hire__me btn btn-primary">Hire Me</button>
+          <button class="portfolio btn btn-outline-primary">Portfolio</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="assets/Mbeko.jpg" alt="profile" class="img-fluid rounded-circle" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section__container glass p-4">
+      <h2>About Me</h2>
+      <p>
+        I'm Xivumbeko, an Information Technology student passionate about networking.
+        I have experience in network configurations, cyber security, and network management.
+        My skills include Java, Python, and basics of HTML, CSS, and JavaScript.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="project">
+    <div class="section__container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="project glass p-4 mb-4">
+            <h3>Networking</h3>
+            <p>A project focused on network configurations, security, and management.</p>
+            <button class="view__project btn btn-primary">View Project</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="project glass p-4 mb-4">
+            <h3>E-commerce Platform</h3>
+            <p>Developed a responsive and user-friendly e-commerce platform.</p>
+            <button class="view__project btn btn-primary">View Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="section__container">
+      <h2>Contact</h2>
+      <p>
+        If you'd like to get in touch, please use one of the following options:
+      </p>
+      <p>Email: <a href="mailto:example@example.com">mathonsixivumbeko@gmail.com</a></p>
+
+      <form action="https://formspree.io/f/{your_form_id}" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+
+      <p>GitHub: <a href="https://github.com/your_github_username" target="_blank">your_github_username</a></p>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-gS3p/x1+OrlTMmalbitdlb6Jk8o1FtfSxFjpL0rSJaJw9vD0HmWrZUo1qoNH8ud6" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+8kWFd95agwE0IkaRVxFicKkTx2hcdv5NI4" crossorigin="anonymous"></script>
+</body>
+</html>
